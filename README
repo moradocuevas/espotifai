@@ -1,2 +1,9 @@
-espotifai is our take on the mix of social science and the data analyst general toolkit: we used both web scrapping and the Spotify API to gather data about the most popular music and process it along the data of the World Happiness Index.
+espotifai is our take on the mix of social science and the data analyst general toolkit: we used both web scrapping and
+the Spotify API to gather data about the most popular music and process it along the data of the World Happiness Index.
 
+
+We used Python 3.6 to create a SQL database through web scrapping that contains the required info from the World Happiness Index, 
+as well as another independent database composed of the top lists of Spotify hits through the Spotify API. 
+
+How does music shapes people? We theorized around this question while working on the graphic visualization made with Tableau, HTML/CSS and Javascript. 
+We used clusters. 
