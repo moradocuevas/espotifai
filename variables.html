@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy music</title>
+    <link href="https://fonts.googleapis.com/css?family=Baumans|Codystar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="menu">
+            <a href="home.html" class="link">
+                <div class="title">HOME</div>
+            </a>
+            <a href="index.html" class="link">
+                <div class="title">HAPPINESS INDEX</div>
+            </a>
+            <a href="topSongs.html" class="link">
+                <div class="title">TOP SONGS</div>
+            </a>
+            <a href="mixed.html" class="link">
+                <div class="title">MIXUP</div>
+            </a>
+            <a href="variables.html" class="link">
+                <div class="title">VARIABLES</div>
+            </a>
+            <a href="team.html" class="link">
+                <div class="title">BAND</div>
+            </a>
+        </div>
+    </div>
+    <div class="main-visualizer">
+    </div>
+ 
+        <div class="variables">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
+                <defs>
+                    <style>
+                    .cls-1,.cls-27,.cls-28,.cls-29,.cls-32,.cls-35,.cls-36,.cls-38{fill:none}.cls-12,.cls-2,.cls-3{fill:#fff}.cls-2{fill-rule:evenodd}.cls-12{font-family:Codystar;font-size:14.47px}.cls-13{letter-spacing:-.01em}.cls-20,.cls-21{letter-spacing:0}.cls-27,.cls-28,.cls-29,.cls-32,.cls-35,.cls-36,.cls-38{stroke-miterlimit:10;stroke:#000}.cls-27{stroke-width:1.11px}.cls-28{stroke-width:2px}.cls-32{stroke-width:.53px}.cls-35{stroke-width:.5px}.cls-36{stroke-width:.61px}.cls-38{stroke-width:.53px}
+                    </style>
+                </defs>
+                <title>
+                    variable
+                </title>
+                <rect x="0" y="310" width="850" height="100"/>
+                <text transform="translate(22.59 33.48)" font-family="Codystar" font-size="40" letter-spacing="-.06em" fill="#fff">VARIABLES</text>                
+                <g id="texto">
+                    <text id="feature" x="50%" y="350" font-size="40" font-family="Codystar" fill="#fff" dominant-baseline="middle" text-anchor="middle">
+                    danceability
+                    </text>
+                    <text id="description" x="50%" y="390"  font-size="14" font-family="CenturyGothic,Century Gothic" fill="#fff" dominant-baseline="middle" text-anchor="middle">
+                    the quality or state of being danceable
+                    </text>
+                    <text class="cls-12" x="-37.67" y="-23.19">
+                    <tspan x="82.03" y="116.29">danceability<tspan x="82.03" y="168.38">energy</tspan><tspan x="82.03" y="220.47">key</tspan><tspan x="82.03" y="272.55">loudness</tspan>
+                    </text>
+                    <text class="cls-12" transform="translate(307.51 115.71)">
+                    instrumentalness<tspan x="0" y="52.09">liveness</tspan><tspan x="0" y="104.17">valence</tspan><tspan class="cls-13" x="0" y="156.26">tempo</tspan>
+                    </text>
+                    <text class="cls-12" transform="translate(536.35 117.43)">
+                    mode<tspan x="0" y="52.09">speechiness</tspan><tspan x="0" y="104.17">accousticness</tspan>
+                    </text>
+                    <text class="cls-12" transform="translate(757.43 167.71)">
+                    duration<tspan x="0" y="52.09">bar</tspan>
+                    </text>
+                    <text class="cls-12" transform="translate(536.35 269.98)">
+                    id
+                    </text>
+                </g>
+                <g id="bolitas">
+                    <circle id="danceability" onclick="mamarre(this.id)" class="cls-3" cx="41.13" cy="113.43" r="18.79"/>
+                    <circle id="energy" onclick="mamarre(this.id)" class="cls-3" cx="41.13" cy="166.07" r="18.79"/>
+                    <circle id="key" onclick="mamarre(this.id)"class="cls-3" cx="41.13" cy="218.02" r="18.79"/>
+                    <circle id="loudness" onclick="mamarre(this.id)"class="cls-3" cx="41.13" cy="269.98" r="18.79"/>
+                    <circle id="mode" onclick="mamarre(this.id)"class="cls-3" cx="496.56" cy="110.8" r="18.79"/>
+                    <circle id="speechiness" onclick="mamarre(this.id)"class="cls-3" cx="496.56" cy="161.65" r="18.79"/>
+                    <circle id="accousticness" onclick="mamarre(this.id)" class="cls-3" cx="496.56" cy="213.6" r="18.79"/>
+                    <circle id="instrumentalness" onclick="mamarre(this.id)"class="cls-3" cx="276.58" cy="111.9" r="18.79"/>
+                    <circle id="liveness" onclick="mamarre(this.id)"class="cls-3" cx="276.58" cy="160.54" r="18.79"/>
+                    <circle id="valence" onclick="mamarre(this.id)"class="cls-3" cx="276.58" cy="212.5" r="18.79"/>
+                    <circle id="tempo" onclick="mamarre(this.id)"class="cls-3" cx="276.58" cy="264.45" r="18.79"/>
+                    <circle id="id" onclick="mamarre(this.id)"class="cls-3" cx="494.35" cy="264.45" r="18.79"/>
+                    <circle id="duration" onclick="mamarre(this.id)"class="cls-3" cx="720.96" cy="161.69" r="18.79"/>
+                    <circle id="bar" onclick="mamarre(this.id)"class="cls-3" cx="720.96" cy="213.65" r="18.79"/>
+                </g>
+                <g id="simbolos">
+                    <path class="cls-27" d="M276.98 121l-11.71-18.19 22.67 9.1-10.96 9.09z"/>
+                    <path d="M536 124.72a2.51 2.51 0 0 1-3.54 3.55 2.51 2.51 0 0 1 3.54-3.55z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M536 142.13a2.5 2.5 0 0 1-3.54 3.54 2.5 2.5 0 0 1 3.54-3.54z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M535.64 133.58a2 2 0 0 1-2.83 2.84 2 2 0 0 1 2.83-2.84z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M315.53 230.17a2.18 2.18 0 0 1-3.08 3.08 2.18 2.18 0 0 1 3.08-3.08z" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-28" d="M266.33 217.81h21"/>
+                    <path d="M745.83 183.92a1.94 1.94 0 0 1-2.74 2.74 1.94 1.94 0 0 1 2.74-2.74z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M774.52 183.92a1.94 1.94 0 0 1-2.74 2.74 1.94 1.94 0 0 1 2.74-2.74z" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-29" d="M706.33 162.31h29"/>
+                    <path d="M304.48 124.46a2.18 2.18 0 0 1-3.08 3.08 2.18 2.18 0 0 1 3.08-3.08z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M315.53 142.64a2.18 2.18 0 0 1-3.08 3.09 2.18 2.18 0 0 1 3.08-3.09z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M327.15 133.55a2.18 2.18 0 0 1-3.09 3.08 2.18 2.18 0 0 1 3.09-3.08z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M80.07 197c1.71 2.09-.83 4.46-3.08 2.86-1.72-2.13.83-4.5 3.08-2.86z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M67.15 192.79a2.18 2.18 0 0 1-3.08 3.08 2.18 2.18 0 0 1 3.08-3.08z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M78.29 174.07c1.72 2.09-.83 4.45-3.08 2.86-1.72-2.09.79-4.46 3.08-2.86z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M87.49 183.91c1.71 2.09-.84 4.46-3.09 2.86-1.71-2.09.83-4.45 3.09-2.86z" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-27" d="M27.94 171.14l8.84-17.83 4.35 21.89 7.15-13.05 5.5 11.1"/>
+                    <path d="M93 195c1.71 2.1-.83 4.46-3.08 2.87-1.73-2.09.82-4.46 3.08-2.87z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M533.31 187a2.06 2.06 0 0 1-2.91 2.9 2.06 2.06 0 0 1 2.91-2.9z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M493.57 152.6a13.6 13.6 0 0 1 13.1 14.1" stroke-width="1.64" stroke="#000" stroke-miterlimit="10" fill="none"/>
+                    <path d="M492.75 158.34a8.84 8.84 0 0 1 8.51 9.17" stroke-width="1.07" stroke="#000" stroke-miterlimit="10" fill="none"/>
+                    <path class="cls-28" d="M530.1 299.53a49.19 49.19 0 0 1 8.78-11.32" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-28" d="M522.71 292.14a115.49 115.49 0 0 1 10.38-13.06" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-28" d="M540.09 298.68a93.06 93.06 0 0 1-19.24-17.56" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-28" d="M36.33 279.81v-23"/>
+                    <path class="cls-28" d="M41.33 279.81v-12"/>
+                    <path class="cls-28" d="M46.33 279.81v-15"/>
+                    <path class="cls-28" d="M51.33 279.81v-19"/>
+                    <path class="cls-28" d="M30.33 279.81v-9"/>
+                    <path class="cls-28" d="M746.36 232.35c-.37-.91.34-1.86 1-2.58 1.58-1.71 3.3-3.47 5.55-4.09s5.13.44 5.63 2.71c.68 3.14-3.08 5.22-4.8 7.93a7.55 7.55 0 0 0 .47 8.34 8.79 8.79 0 0 0 7.84 3.26 9.82 9.82 0 0 0 8.32-10.84" transform="translate(-37.67 -23.19)"/>
+                    <path d="M41 223.65l-10.06-11.11 20.12.05L41 223.65z"/>
+                    <path class="cls-1" d="M38.76 109.8l5.52 5.52"/>
+                    <path class="cls-32" d="M64.49 137.53s6.24-11.26 16.67 3.31c9.57 13.36 11.09-9.19 11.09-9.19" transform="translate(-37.67 -23.19)"/>
+                    <path d="M93.79 130.92c1.71 2.09-.83 4.46-3.08 2.87-1.71-2.1.83-4.46 3.08-2.87z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M66 136.27c1.72 2.1-.83 4.46-3.08 2.87-1.68-2.09.86-4.46 3.08-2.87z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M82.17 139.19c1.72 2.09-.83 4.46-3.08 2.87-1.71-2.06.83-4.46 3.08-2.87z" transform="translate(-37.67 -23.19)"/>
+                    <circle class="cls-29" cx="285.81" cy="262.07" r="5.59"/>
+                    <path class="cls-28" d="M291.33 260.34l-28.16 11.25"/>
+                    <circle class="cls-29" cx="495.83" cy="214.58" r="8.17"/>
+                    <path d="M543.21 234.15a2.18 2.18 0 0 1-3.08 3.08 2.18 2.18 0 0 1 3.08-3.08z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M548 227.84a2.5 2.5 0 0 1-3.54 3.54 2.5 2.5 0 0 1 3.54-3.54z" transform="translate(-37.67 -23.19)"/>
+                    <path stroke-width=".48" stroke="#000" stroke-miterlimit="10" fill="none" d="M30.94 170.49l8.14-18.18 4 22.32 6.59-13.31 5.07 11.31"/>
+                    <path class="cls-32" d="M65.49 138.53s6.24-11.26 16.67 3.31c9.57 13.36 11.09-9.19 11.09-9.19" transform="translate(-37.67 -23.19)"/>
+                    <path stroke-width=".42" stroke="#000" stroke-miterlimit="10" fill="none" d="M277 118.92l-9.73-15.11 18.84 7.56-9.11 7.55z"/>
+                    <path class="cls-35" d="M43 224.65l-11.06-13.11 22.12.06L43 224.65z"/>
+                    <path class="cls-29" d="M38.83 279.81v-23"/>
+                    <path class="cls-29" d="M43.83 279.81v-12"/>
+                    <path class="cls-29" d="M48.83 279.81v-15"/>
+                    <path class="cls-29" d="M53.83 279.81v-19"/>
+                    <path class="cls-29" d="M32.83 279.81v-9"/>
+                    <path class="cls-35" d="M316.46 230.17a2.18 2.18 0 0 1-3.08 3.08 2.18 2.18 0 0 1 3.08-3.08z" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-35" d="M265.27 272.48l26.13-10.03"/>
+                    <circle class="cls-35" cx="287.81" cy="262.07" r="5.59"/>
+                    <path class="cls-29" d="M266.33 220.31h20"/>
+                    <path class="cls-36" d="M536.45 126.51a2.14 2.14 0 0 1-3 3 2.14 2.14 0 0 1 3-3z" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-36" d="M536.45 140.73a2.14 2.14 0 0 1-3 3 2.14 2.14 0 0 1 3-3z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M498.94 110.22a2.242 2.242 0 0 1-3.17 3.17 2.242 2.242 0 0 1 3.17-3.17z" stroke-width=".51" stroke="#000" stroke-miterlimit="10" fill="none"/>
+                    <path class="cls-38" d="M534.17 186.44a2.31 2.31 0 0 1-3.26 3.26 2.31 2.31 0 0 1 3.26-3.26z" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-35" d="M531.13 177.78A11.29 11.29 0 0 1 542 189.49" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-35" d="M530.45 182.55a7.35 7.35 0 0 1 7.08 7.62" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-38" d="M544.1 234.06a2.31 2.31 0 0 1-3.26 3.26 2.31 2.31 0 0 1 3.26-3.26z" transform="translate(-37.67 -23.19)"/>
+                    <path d="M511.06 204.63c2.12 2.53-1 5.39-3.8 3.46-2.12-2.53 1.07-5.38 3.8-3.46z" stroke-width=".59" stroke="#000" stroke-miterlimit="10" fill="none"/>
+                    <path class="cls-35" d="M749.36 232.35c-.37-.91.34-1.86 1-2.58 1.58-1.71 3.3-3.47 5.55-4.09s5.13.44 5.63 2.71c.68 3.14-3.08 5.22-4.8 7.93a7.55 7.55 0 0 0 .47 8.34 8.79 8.79 0 0 0 7.84 3.26 9.82 9.82 0 0 0 8.32-10.84" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-35" d="M532.1 300.53a49.19 49.19 0 0 1 8.78-11.32" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-35" d="M524.71 293.14a115.49 115.49 0 0 1 10.38-13.06" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-35" d="M541.09 296.68a93.06 93.06 0 0 1-19.24-17.56" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-38" d="M745.1 183.66a2.31 2.31 0 0 1-3.26 3.26 2.31 2.31 0 0 1 3.26-3.26z" transform="translate(-37.67 -23.19)"/>
+                    <path class="cls-38" d="M775.72 183.66a2.3 2.3 0 0 1-3.25 3.26 2.3 2.3 0 0 1 3.25-3.26z" transform="translate(-37.67 -23.19)"/>
+                    <circle class="cls-35" cx="497.83" cy="214.58" r="8.17"/>
+                    <circle class="cls-35" cx="276.83" cy="162.64" r="9.17"/>
+                    <circle cx="276.83" cy="160.64" r="9.17"/>
+                    <path class="cls-3" d="M265.33 162.81h25L286 152.39l-18.33-2.54-2.34 12.96z"/>
+                    <path d="M269.33 161.81h15.74l-7.87-9.67-7.87 9.67z"/>
+                    <path stroke-width=".41" stroke="#000" stroke-miterlimit="10" fill="none" d="M276.91 150.81l-8.85 11.05 17.7-.05-8.85-11z"/>
+                </g>
+            </svg>
+
+        </div>
+        <div class="tableau-space"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    </body>
+    </html>
